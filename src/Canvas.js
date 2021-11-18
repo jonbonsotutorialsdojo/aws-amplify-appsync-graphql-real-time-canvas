@@ -122,6 +122,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
+       <img src="https://w7e4q5w4.stackpathcdn.com/wp-content/uploads/2020/01/tutorialsdojo-logo-blue.png" />
         <button name='clearbutton' onClick={this.clear}>Clear</button>
         <CanvasDraw
           {...this.state}
